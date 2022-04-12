@@ -30,11 +30,11 @@ function pointStyleFunction(f) {
     });
     radius = 20;
   }
-  color = '#31ad31';
+  color = '#e7f26b';
   let pointStyle = new ol.style.Style({
     image: new ol.style.RegularShape({
       radius: radius,
-      points: 5,
+      points: 6,
       fill: new ol.style.Fill({
         color: color
       }),
