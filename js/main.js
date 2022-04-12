@@ -123,8 +123,8 @@ map.on('singleclick', function (evt) {
         message += '<tr><th scope="row">故事</th><td>' + c.story + '</td></tr>';
         message += '<tr><th scope="row">成立年代</th><td>' + c.built + '</td></tr>';
         message += '<tr><th scope="row">成立背景</th><td>' + c.background + '</td></tr>';
-        message += '<tr><th scope="row">特色</th><td><pre>' + c.feature + '</pre></td></tr>';
-        message += '<tr><th scope="row">攤販數</th><td><pre>' + c.count_stores + '</pre></td></tr>';
+        message += '<tr><th scope="row">特色</th><td>' + c.feature + '</td></tr>';
+        message += '<tr><th scope="row">攤販數</th><td>' + c.count_stores + '</td></tr>';
         message += '<tr><td colspan="2">';
         for(k in c.stores) {
           message += '<a href="' + c.stores[k].url + '" target="_blank" class="btn btn-info" style="margin: 5px;">[' + c.stores[k].no + ']' + c.stores[k].name + '</a>';
